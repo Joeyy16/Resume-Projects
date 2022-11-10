@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!---->
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" href="stles.css"/>
+  </head>
+
+
+<!---->
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please complete the survey</p>
+    <form id="survey-form">
+
+
+<!---->
+      <fieldset>
+        <label id="name-label">Enter your name:<input id="name" type="text" placeholder="ex: John" required /></label>
+        <label id="email-label">Enter your email:<input id="email" type="email" placeholder="ex: Johndoe@gmail.com" required /></label>
+      </fieldset>
+
+
+<!---->
+      <fieldset>
+          <label id="number-label">Enter a number:<input id="number" type="number" placeholder="ex: 2" min="0" max="10" required /></label>
+          <label>How did you hear about us?
+            <select id="dropdown">
+              <option value="">(select one)</option>
+              <option value="1" >freeCodeCamp YouTube Channel</option>
+              <option value="2">freeCodeCamp Forum</option>
+            </select>
+      </fieldset>
+
+
+<!---->
+      <fieldset>
+          <p id="sec">Account Type</p>
+          <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" value="1"/> Personal Account</label>
+          <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" value="2"/> Business Account</label>
+          </label>
+      </fieldset>
+
+
+<!---->
+      <fieldset>
+          <p id="sec">Highest Level of Education</p>
+          <label for="terms-and-conditions" name="terms-and-conditions">
+            <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="1" />Graduate Degree</label>
+            <label for="graduate degree" name="graduate degree">
+            <input id="graduate degree" type="checkbox" required name="graduate degree" class="inline" value="2" />Undergraduate Degree</label>
+            <label for="undergraduate degree" name="undergradute degree">
+            <input id="primary school" type="checkbox" required name="primary school" class="inline" value="3" />Primary School</label>
+        </fieldset>
+
+
+<!--Textbox for user input-->
+        <fieldset>
+            <label for="comments">Additional Comments:
+            <textarea id="comments" name="comments" rows="3" cols="30" placeholder="I also..."></textarea>
+          </label>
+        </fieldset>
+
+
+<!--Submit all the inputs-->
+          <input id="submit" type="submit" value="submit" />
+    </form>
+  </body>
+</html>
+
