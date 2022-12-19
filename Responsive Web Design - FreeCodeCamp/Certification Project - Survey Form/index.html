@@ -1,26 +1,24 @@
-<!--document declaration-->
-<!DOCTYPE html>   
-<!--The html tag represents the root of an HTML document. lang="en" specifies that English is used for all the text on the page-->
-<html lang="en"> 
+<!DOCTYPE html> <!--document declaration-->
+<html lang="en"> <!--The html tag represents the root of an HTML document. lang="en" specifies that English is used for all the text on the page-->
 
 
-<!--the head tag is a container for metadata. Metadata is data about the HTML document-->
-  <head>
+
+  <head> <!--Container for metadata. Metadata is data about the HTML document-->
     <meta charset="UTF-8"> <!--Specifies the character set, UTF-8 is the most common because it covers almost all of the characters and symbols in the world-->
     <title>Survey Form</title> <!--Defines the title of the page and is shown in the browser's title bar. It is very important for search engine optimization (SEO)-->
     <link rel="stylesheet" href="styles.css"/> <!--Defines the relationship between the current document and an external resource-->
   </head>
 
 
-<!---->
-  <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Please complete the survey</p>
-    <form id="survey-form">
+
+  <body> <!--Defines the document's body, contains all the contents of an HTML document-->
+    <h1 id="title">Survey Form</h1> <!--Most importanty heading. The Id attribute is a unique id for the element-->
+    <p id="description">Please complete the survey</p> <!--Paragraph-->
+    <form id="survey-form"> <!--Used to create an HTML form for user input-->
 
 
-<!---->
-      <fieldset>
+
+      <fieldset> <!--Groups related elements in a form, draws a box around the related elements-->
         <label id="name-label">Enter your name:<input id="name" type="text" placeholder="ex: John" required /></label>
         <label id="email-label">Enter your email:<input id="email" type="email" placeholder="ex: Johndoe@gmail.com" required /></label>
       </fieldset>
