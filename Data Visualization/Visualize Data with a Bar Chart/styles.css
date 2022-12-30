@@ -1,3 +1,25 @@
+/* 
+This code is written in CSS, which stands for Cascading Style Sheets. It is a stylesheet language used to describe the look and formatting of a document written in HTML.
+
+The code begins with a wildcard selector (*) that applies the specified styles to all elements on the page. It sets the margin and padding to 0 for all elements.
+
+The .main class is applied to a div element that is used to center the content of the page. It sets the height and width to take up the full viewport, display to flex, align-items and justify-content to center, and the font-family to 'Roboto'. It also sets the background-color and background-size properties.
+
+The .main .container class is applied to a div element that holds the content of the page. It sets the height, width, background-color, and padding properties, and also sets the display to flex and the flex-direction to column. It also has a media query that applies a box-shadow to the element if the viewport width is at least 1000px.
+
+The #title id is applied to a div element that holds the title text for the page. It sets the text-align and font-size properties.
+
+The .main .container .visHolder class is applied to a div element that holds the visualizations for the page. It sets the position property to absolute and the top property to 6em.
+
+The #tooltip id is applied to a div element that is used as a tooltip to display additional information when the user hovers over a bar in the chart. It sets the display, align-items, justify-content, position, text-align, width, height, padding, font, background, box-shadow, border-radius, and pointer-events properties.
+
+The .overlay class is applied to a div element that is used to display a transparent layer over the chart when the user hovers over a bar. It sets the position and background properties, and sets the pointer-events property to none.
+
+The #y-axis path and #x-axis path id selectors are applied to elements that represent the y and x axes of the chart, respectively. They set the stroke, stroke-width, and fill properties.
+
+The .info class is applied to a text element that displays additional information at the bottom of the chart. It sets the font-size property.
+*/
+
 * {
   margin: 0;
   padding: 0;
