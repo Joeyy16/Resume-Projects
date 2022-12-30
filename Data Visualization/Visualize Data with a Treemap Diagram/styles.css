@@ -1,3 +1,17 @@
+/* 
+This code is a stylesheet written in CSS (Cascading Style Sheets). It is used to define the appearance and layout of a webpage written in HTML (HyperText Markup Language).
+
+The html and body elements define the default margins, padding, and font for the entire webpage. The svg element defines the font, alignment, display, and margins for any svg (Scalable Vector Graphics) elements that appear on the page.
+
+The a element defines the appearance of any hyperlinks on the page.
+
+The #title element defines the font size and margin for the element with the id "title". The #description element defines the padding at the bottom of the element with the id "description".
+
+The div.tooltip element defines the appearance of a div element with the class "tooltip", which is typically used to display additional information or a message when the user hovers over or clicks on a particular element.
+
+The #legend element defines the font size, alignment, display, margins, and padding for the element with the id "legend".
+*/
+
 html,
 body {
   margin: 0;
