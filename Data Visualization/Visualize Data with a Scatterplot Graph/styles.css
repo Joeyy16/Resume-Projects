@@ -1,3 +1,7 @@
+/* 
+This is a CSS file that styles an HTML page containing a scatter plot created with the D3 library. The .graph class styles the scatter plot, setting the display to block, the margin to auto, and the background color to white. The body class sets the font and dimensions of the body element. The .main class sets the position of an element to relative. The .axis class styles the x-axis and y-axis of the scatter plot, filling and stroking the elements and setting the rendering of the shapes to crisp edges. The .dot class styles the data points in the scatter plot, setting the stroke and opacity. The div.tooltip class styles the tooltips that appear when hovering over a data point in the scatter plot, setting the position, padding, font, background, border, border radius, and pointer events of the element.
+*/
+
 .graph {
   display: block;
   margin: auto;
