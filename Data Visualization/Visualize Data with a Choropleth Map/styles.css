@@ -1,3 +1,27 @@
+/* 
+This code is written in CSS, which stands for Cascading Style Sheets. It is a stylesheet language used to describe the look and formatting of a document written in HTML.
+
+The code begins by setting the padding and margin of the html and body elements to 0.
+
+The body element is then set to display as flex, justify-content as center, and the font-family as 'Arial'.
+
+The #main id is applied to a div element that holds the content of the page. It sets the width, display, padding-top, flex-direction, and align-items properties.
+
+The .counties class is applied to path elements that represent counties on the map. It sets the fill property to none.
+
+The .states class is applied to path elements that represent states on the map. It sets the fill and stroke properties to none and #fff respectively, and the stroke-linejoin property to round.
+
+The div.tooltip class is applied to a div element that is used as a tooltip to display additional information when the user hovers over a county on the map. It sets the position, padding, font, background, box-shadow, border, border-radius, and pointer-events properties.
+
+The #title id is applied to an h1 element that contains the title of the page. It sets the font-size property.
+
+The #description id is applied to a div element that contains a description of the data displayed on the page. It sets the text-align property.
+
+The #source id is applied to a div element that contains a link to the source of the data used on the page. It sets the align-self and margin-top properties.
+
+The a element is applied to a link. It sets the text-decoration property to none, which removes the underline from the link text.
+*/
+
 html,
 body {
   padding: 0;
