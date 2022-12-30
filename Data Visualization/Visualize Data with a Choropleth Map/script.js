@@ -1,3 +1,15 @@
+/*
+This code is creating a choropleth map, which is a map that uses color to encode data values. It uses the D3.js library to read in data from two files: COUNTY_FILE and EDUCATION_FILE. The data in EDUCATION_FILE represents the percentage of adults in each county with a bachelor's degree or higher, and the data in COUNTY_FILE is a TopoJSON file containing the geometry for each county in the United States.
+
+The code first sets up a few constants and variables, including an SVG element, a tooltip element, and a color scale. It then creates a g element to hold a legend for the map and appends a series of rect elements to it, each representing a range of data values and colored accordingly.
+
+Next, the code uses Promise.all to read in both data files asynchronously and passes them to the ready function when both have been loaded. In the ready function, the code appends a g element to the SVG and binds the data from EDUCATION_FILE to it. It then appends a path element to the g element for each county and sets its data-education attribute to the corresponding data value from EDUCATION_FILE. The fill attribute of each path element is set using the color scale, which maps data values to colors.
+
+Finally, the code appends a g element to the SVG for the state boundaries and binds the data from COUNTY_FILE to it. It then appends a path element for each state and sets its d attribute using the path generator.
+
+Overall, this code is creating a map of the United States that visualizes the percentage of adults in each county with a bachelor's degree or higher. The legend at the bottom allows the user to see the range of values represented by each color.
+*/
+
 const projectName = 'choropleth';
 
 var body = d3.select('body');
