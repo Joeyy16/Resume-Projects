@@ -1,3 +1,13 @@
+/*
+This is a JavaScript file that is used to create a heat map visualization using the D3 library. It begins by defining a constant called projectName and a variable called url that stores the URL for the JSON file containing the data to be visualized.
+
+The colorbrewer object is an object containing arrays of colors in different color schemes that can be used for visualizations. These colors are stored in the object as properties, with the name of the color scheme being the property name and the arrays of colors being the values for each property.
+
+The file then makes a request to the URL specified in the url variable and uses the .then() method to handle the data that is returned from the request. It then calls a ready function and passes the data to the function as an argument. The ready function is not defined in this code, so it is unclear what actions it will perform with the data.
+
+After the ready function is called, the file uses the .catch() method to handle any errors that might occur during the request. If an error occurs, the .catch() method will log the error to the console.
+*/
+
 
 const projectName = 'heat-map';
 
