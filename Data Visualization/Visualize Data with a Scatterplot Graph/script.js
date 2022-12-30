@@ -1,3 +1,17 @@
+/*
+This code creates a scatter plot with data from a JSON file. The plot compares the performance of professional cycling athletes in different years.
+
+The code first sets up the dimensions of the plot, including the margins. It then creates scales for the x-axis (year), y-axis (time in minutes), and color of the dots. The scales are used to map the data values to the corresponding positions on the plot.
+
+Next, the code sets up the x-axis and y-axis and adds them to the plot with the corresponding labels.
+
+Then, the code loads the JSON data and formats it by parsing the time data into Date objects. It also sets the domain of the x and y scales using the min and max values of the year and time data, respectively.
+
+The code then creates circles (dots) for each data point, positioning them according to the x and y scales and adding the corresponding data attributes. It also adds a tooltip to the plot, which will display additional information about the data point when the user hovers over a dot.
+
+Finally, the code adds a legend to the plot, using the color scale to assign the appropriate color to each dot based on the doping allegations of the athlete.
+*/
+
 var projectName = 'scatter-plot';
 
 var url =
