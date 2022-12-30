@@ -1,3 +1,13 @@
+"""
+This code defines a function calculate that takes in a list of nine numbers and calculates the mean, variance, standard deviation, maximum, minimum, and sum of the values in the list. It also calculates these values across the rows, columns, and the entire list.
+
+First, the function checks if the length of the input list is less than 9. If it is, it raises a ValueError with the message 'List must contain nine numbers.'. If the length of the list is 9 or greater, the function proceeds to initialize a dictionary called calculations with empty strings as the values for the keys 'mean', 'variance', 'standard deviation', 'max', 'min', and 'sum'.
+
+Next, the function converts the input list into a 3x3 NumPy array called storage and calculates several statistics for this array, including the minimum, maximum, sum, mean, variance, and standard deviation. It also calculates these statistics for the rows, columns, and the entire array. Finally, it updates the calculations dictionary with the values for each of these statistics.
+
+The function returns the calculations dictionary at the end.
+"""
+
 import numpy as np
 
 def calculate(list):
