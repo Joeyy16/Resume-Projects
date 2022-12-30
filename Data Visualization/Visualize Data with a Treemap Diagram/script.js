@@ -1,3 +1,19 @@
+/*
+This code is a JavaScript implementation of a treemap visualization using the D3 library. A treemap is a visualization that displays hierarchical data as nested rectangles, where the area of each rectangle corresponds to the quantity it represents.
+
+The code starts by defining an object, DATASETS, that contains information about three different data sets that can be used to create the treemap visualization. It then retrieves the name of the data set to use from the URL query parameters and sets it to a constant called DATASET.
+
+The code then selects the body element of the HTML page and appends a div element to it with the class "tooltip" and an id of "tooltip". This div element will be used to display a tooltip when the user hovers over a rectangle in the treemap.
+
+Next, the code selects the svg element with an id of "tree-map" and sets its width and height variables. It then defines a function called fader that takes a color and returns a new color that is a slightly lighter version of the original color.
+
+The code then creates a color scale using the d3.scaleOrdinal function and sets its range to a list of colors that are slightly lighter versions of a predefined list of colors.
+
+Next, the code creates a treemap layout using the d3.treemap function and sets its size and padding parameters.
+
+The code then loads the data for the selected data set
+*/
+
 const projectName = 'tree-map';
 
 const DATASETS = {
