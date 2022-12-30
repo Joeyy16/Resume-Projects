@@ -1,4 +1,22 @@
 
+/*
+This code is written in JavaScript, a programming language that is commonly used to create interactive elements on websites.
+
+The code begins by defining several variables:
+
+projectName is a constant that holds the value 'bar-chart'.
+width and height are variables that hold the width and height of the bar chart, respectively.
+barWidth is a variable that holds the width of each bar in the chart, calculated by dividing the width by 275.
+tooltip is a variable that holds a reference to a div element that will be used as a tooltip to display additional information when the user hovers over a bar in the chart.
+overlay is a variable that holds a reference to a div element that will be used to display a transparent layer over the chart when the user hovers over a bar.
+svgContainer is a variable that holds a reference to an svg element, which stands for Scalable Vector Graphics. This element will be used to hold the bar chart.
+The code then uses the d3 library to retrieve data from a JSON file at a specified URL and parse it as a JavaScript object. This data contains information about the Gross Domestic Product (GDP) of the United States.
+
+The code then uses the d3 library to create and customize an x and y axis for the bar chart, using scales to map the data values to the appropriate positions on the chart.
+
+Finally, the code uses the d3 library to create and customize the bars of the bar chart, using data from the JSON file to set the position, width, height, and other attributes of each bar. The code also includes event listeners to display the tooltip and overlay when the user hovers over a bar.
+*/
+
 const projectName = 'bar-chart';
 
 var width = 800,
