@@ -1,3 +1,7 @@
+/* 
+This code is a CSS stylesheet for a D3 Heat Map. It specifies the font family, font weight, and color to be used for the body of the page. It also defines the appearance of the tooltips (d3-tip) that appear when hovering over cells in the heat map, such as the background color, border radius, and text color. The styles for the heat map itself are defined, including the stroke width and color of the cells and the stroke width of hovered cells. The width, overflow, margin, and font size of the section containing the heat map are also specified. The text alignment of headings and text elements within the heat map are set to center. Finally, the stroke width of the y-axis, x-axis, and legend elements is set to 0.
+*/
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body {
   font-family: 'Open Sans', sans-serif;
