@@ -1,17 +1,15 @@
 # Resume-Projects 🙂
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
 > The purpose of this repository is to share my breadth of knowledge and skills as it pertains to computer science.  💻 
 
 > The projects are categorized by topic, there are 11 topics included in this repository. 📚
 
-- Responsive Web Design
-  1. HTML
-  2. CSS
+| Topic | Description |
+| ----------- | ----------- |
+| Responsive Web Design |   1. HTML 2. CSS |
+
+
+
   
 - JavaScript Algorithms and Data Structures
   1. ES6
