@@ -37,8 +37,28 @@ The projects are categorized by topic, there are 11 topics included in this repo
   5. Git
   
 - Back End Development and APIs
+  1. NPM
+  2. Node
+  3. Express
+  4. MongoDB
+  5. Mongoose
+  
 - Quality Assurance 
+  1. Chai
+  2. Node
+  3. Express
+  
 - Scientific Computing with Python
+
 - Data Analysis with Python
+  1. Jupyter Notebooks
+  2. Numpy
+  3. Pandas
+  
 - Information Security
+  1. HelmetJS
+  2. Penetration Testing with Python
+  
 - Machine Learning with Python
+  1. Tensorflow
+  2. Neural Networks
