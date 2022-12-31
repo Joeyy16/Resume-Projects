@@ -1,31 +1,10 @@
-
-
-"""
-This is a function definition in Python called arithmetic_arranger. It takes two parameters:
-
-1. problems: a list of strings representing arithmetic problems, such as "1 + 2" or "5 - 3"
-
-2. val (optional): a boolean value indicating whether the function should return the results of 
-the arithmetic problems in addition to arranging them. The default value for val is False.
-
-The function begins by defining an empty string called arranged_problems. If the length of the 
-list problems is greater than 5, the function sets arranged_problems to the string "Error: Too many 
-problems." and then returns arranged_problems. This means that if the function is called with more than 
-5 problems in the list, it will immediately return the string "Error: Too many problems." without doing 
-any further processing.
-"""
-def arithmetic_arranger(problems, val=False): 
-  arranged_problems = ''
-  if len(problems) > 5:
-    arranged_problems = "Error: Too many problems."
-    return arranged_problems
+def arithmetic_arranger(problems, val=False): # Defining function with two input parameters (problems & val)
+  arranged_problems = '' # Defining empty string
+  if len(problems) > 5: # If the length of the problem parameter is greater than 5
+    arranged_problems = "Error: Too many problems." # The arranged_problems variable is assigned an error string
+    return arranged_problems # the error message is printed
 
     """
-    This code is defining a list called operations that consists of the operators in the arithmetic problems. 
-    The operations list is created using a list comprehension and the map() function.
-
-    Here's how it works:
-
     The map() function applies the lambda function (an anonymous function) to each element in the problems list. 
     The lambda function takes a single argument x, which is a string representing an arithmetic problem.
     The lambda function splits the string x into a list of strings using the split() method, and returns the second element 
@@ -40,7 +19,7 @@ def arithmetic_arranger(problems, val=False):
     """
 
   # list of all operations in str format
-  operations = list(map(lambda x: x.split()[1], problems))
+  operations = list(map(lambda x: x.split()[1], problems)) # Defining a list that consists of the operators 
   if set(operations) != {'+', '-'} and len(set(operations)) != 2:
     arranged_problems = "Error: Operator must be '+' or '-'."
     return arranged_problems
