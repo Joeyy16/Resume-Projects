@@ -1,3 +1,21 @@
+/*
+This is a CSS (Cascading Style Sheets) code that specifies styles for an HTML document.
+
+The code defines styles for various elements in the document, such as the body element, the h1 and p elements, the form element, and the fieldset elements.
+
+For example, the first line of the code specifies that the width and height of the body element should be set to 100% and 100vh respectively, and that the margin and background color should be set to 0 and #1b1b32 respectively. The color and font-family and font-size properties are also set for the body element.
+
+The second line of the code specifies that the h1 and p elements should have a margin of 1em and be centered horizontally, and the form element should have a width of 60vw, a maximum width of 500px, a minimum width of 300px, and be centered horizontally.
+
+The fieldset elements are given a padding of 2rem and a border-bottom of 3px solid #3b3b4f, except for the last fieldset element which has no border-bottom. The label elements are given a display of block and a margin of 0.5rem, and the input, textarea, and select elements are given a width of 100% and a minimum height of 2em.
+
+The input and textarea elements are given a background color of #0a0a23 and a border of 1px solid #0a0a23, and the color property is set to #ffffff. The input[type="submit"] element is given a display of block, a width of 60%, a height of 2em, a font size of 1.1rem, a background color of #3b3b4f, and a border color of white. The input[type="file"] element is given a padding of 1px 2px.
+
+The .sec class is given a margin-bottom of 2em. The .inline class is given a width of unset and a margin of 0 0.5em 0 0, and the vertical-align property is set to middle.
+
+These styles will be applied to the corresponding elements in the HTML document, affecting their appearance and layout.
+*/ 
+
 body {
   width: 100%;
   height: 100vh;
