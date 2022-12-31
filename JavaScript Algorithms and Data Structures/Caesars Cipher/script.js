@@ -1,3 +1,15 @@
+/*
+This code defines a function called rot13 that takes an encoded string as an input and returns the decoded version of the string. The rot13 function uses a lookup table called lookup to perform the decoding.
+
+The lookup table is an object with keys that are the uppercase letters of the alphabet, and values that are the corresponding letters of the alphabet shifted by 13 places. For example, the key A maps to the value N, the key B maps to the value O, and so on.
+
+The rot13 function starts by splitting the encoded string into an array of individual characters using the split method. It then initializes an empty array called decodedArr that will be used to store the decoded version of the encoded string.
+
+The rot13 function then uses the map method to iterate over each character in the codeArr array. For each character, the function checks if the lookup table has a key with the same value as the character. If it does, it assigns the corresponding value from the lookup table to the letter variable. If the lookup table does not have a key with the same value as the character, the function does not modify the value of the letter variable.
+
+Finally, the rot13 function returns the decoded version of the encoded string by joining the elements of the decodedArr array together into a single string using the join method.
+*/
+
 var lookup = {
   'A': 'N','B': 'O','C': 'P','D': 'Q',
   'E': 'R','F': 'S','G': 'T','H': 'U',
