@@ -2,7 +2,7 @@
 
 > The purpose of this repository is to share my breadth of knowledge and skills as it pertains to computer science.  💻 
 
-The projects are categorized by topic, there are 11 topics included in this repository. 📚
+> The projects are categorized by topic, there are 11 topics included in this repository. 📚
 
 - Responsive Web Design
   1. HTML
