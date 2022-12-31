@@ -27,7 +27,9 @@
   
 - Data Visualization
   1. D3
-  2. JSON APIs and AJAX
+  2. JSON
+  3. APIs
+  4. AJAX
   
 - Relational Database
   1. Bash
@@ -35,6 +37,8 @@
   3. SQL
   4. Nano
   5. Git
+  6. VS Code
+  7. Linux / Unix command line
   
 - Back End Development and APIs
   1. NPM
