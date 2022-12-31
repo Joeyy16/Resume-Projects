@@ -6,21 +6,9 @@
 
 | Topic | Description |
 | ----------- | ----------- |
-| Responsive Web Design |   1. HTML 2. CSS |
+| Responsive Web Design | HTML & CSS |
+| JavaScript Algorithms and Data Structures | ES6, Regular Expressions, Debugging, Basic Data Structures, Basic Algorithm Scripting, Object Oriented Programming, Functional Programming, Intermediate Algorithm Scripting|
 
-
-
-  
-- JavaScript Algorithms and Data Structures
-  1. ES6
-  2. Regular Expressions
-  3. Debugging
-  4. Basic Data Structures
-  5. Basic Algorithm Scripting
-  6. Object Oriented Programming
-  7. Functional Programming
-  8. Intermediate Algorithm Scripting
-  
 - Front End Development Libraries
   1. Bootstrap
   2. jQuery
