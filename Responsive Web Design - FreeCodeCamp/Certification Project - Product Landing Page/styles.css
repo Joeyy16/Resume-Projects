@@ -1,3 +1,28 @@
+/**
+This is a CSS file, which stands for Cascading Style Sheets. It is a language used to describe the look and formatting of a document written in HTML (HyperText Markup Language).
+
+The @import rule at the top of the file is used to import a font from Google Fonts. The rest of the code consists of a series of rules that apply styles to different elements on a webpage.
+
+Some of the styles that are being applied include:
+
+Setting the default margin and padding to 0 and the box-sizing property to border-box for all elements on the page
+Setting the background color of the body element to white and the font-family to 'Lato' (a font imported from Google Fonts)
+Positioning the element with an ID of "page-wrapper" to be relative
+Removing the default list styling for li elements
+Setting the default color and text decoration for a elements to black and none, respectively
+Creating a class called "container" that sets the maximum width of an element to 1000px and centers it on the page
+Creating a class called "btn" that styles buttons with certain padding, font size, font weight, text transform, border, and border radius
+Creating a class called "grid" that sets the display property of an element to "flex"
+Setting the position of the "header" element to fixed, the background color to black, and the display to "flex"
+Setting the default color of "nav-link" elements to white
+Using a media query to apply styles specifically when the screen width is less than or equal to 600px for the "header" element
+Setting the width of the "logo" element to 60vw (60% of the viewport width) and using a media query to apply styles specifically when the screen width is less than or equal to 650px
+Setting the width and height of the image within the "logo" element to 100% and setting the maximum width to 300px
+Setting the font weight of the "nav" element to 400 and the color to white
+Using a media query to apply styles specifically when the screen width is less than or equal to 650px for the "nav" element
+Setting the width of the unordered list within the "nav" element to 35vw and using a media query to apply styles specifically when the screen width is less than or equal to 650px
+There are many other styles being applied in this file as well. This is just a summary of some of the main styles being applied.
+**/
 /** global element styling **/
 
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
