@@ -1,8 +1,8 @@
 # Resume-Projects 🙂
 
-## The purpose of this repository is to share my breadth of knowledge and skills as it pertains to computer science.  💻 
+The purpose of this repository is to share my breadth of knowledge and skills as it pertains to computer science.  💻 
 
-### The projects are categorized by topic, there are 11 topics included in this repository. 📚
+The projects are categorized by topic, there are 11 topics included in this repository. 📚
 
 - Responsive Web Design
   1. HTML
@@ -30,6 +30,12 @@
   2. JSON APIs and AJAX
   
 - Relational Database
+  1. Bash
+  2. PostgreSQL
+  3. SQL
+  4. Nano
+  5. Git
+  
 - Back End Development and APIs
 - Quality Assurance 
 - Scientific Computing with Python
