@@ -1,7 +1,7 @@
 These projects demonstarte proficiency utilizing some of the most popular front end libraries in the industry. These libraries build upon my solid foundational knowledge of HTML, CSS, and JavaScript. 
 
 - Bootstrap 
-   * styles sites quickly.
+   * styles sites quickly with tools such as Font Awesome.
    * Front End framework used to design responsive web pages and applications.
    * Takes a mobile-first approach to web development, and includes pre-built CSS styles and classes, plus some JavaScript functionality.
 - jQuery 
