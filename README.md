@@ -15,7 +15,7 @@
 | Relational Database | Bash, PostgreSQL, SQL, Nano, Git, VS Code, & Linux / Unix command line |
 | Back End Development and APIs | NPM, Node, Express, MongoDB, & Mongoose |
 | Quality Assurance  | Chai, Node, & Express |
-| Scientific Computing with Python | |
+| Scientific Computing with Python | Networking, Web Services, Relational Databases, & Data Visualization |
 | Data Analysis with Python | Jupyter Notebooks, Numpy, & Pandas |
 | Information Security | HelmetJS & Penetration Testing with Python |
 | Machine Learning with Python | Tensorflow & Neural Networks |
