@@ -18,4 +18,4 @@
 | Scientific Computing with Python | Networking, Web Services, Relational Databases, & Data Visualization |
 | Data Analysis with Python | Jupyter Notebooks, Numpy, & Pandas |
 | Information Security | HelmetJS & Penetration Testing with Python |
-| Machine Learning with Python | Tensorflow & Neural Networks |
+| ==Machine Learning with Python== | Tensorflow & Neural Networks |
