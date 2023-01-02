@@ -1,24 +1,18 @@
 import copy
 import random
-# Consider using the modules imported above.
+
 
 """
 This is the __init__ method of the Hat class in the prob_calculator module. This method is called when a new Hat object is created, and it initializes the contents attribute of the object. The contents attribute is a list of strings, where each string represents a color. The colors and the number of balls of each color in the hat are passed as keyword arguments to the method.
 
-For example, if you create a Hat object like this:
-
-hat = Hat(blue=4, red=2, green=6)
-
 Then the contents attribute of the hat object will be a list of 12 strings, where 4 of the strings are "blue", 2 of the strings are "red", and 6 of the strings are "green".
 """
-
 class Hat:
     def __init__(self, **kwargs):
         self.contents = [k for k, v in kwargs.items() for _ in range(v)]
 
-    """
-    The draw method of the Hat class is used to draw n balls from the hat. The number of balls drawn, n, is limited by the total number of balls remaining in the hat. The method uses a list comprehension to draw n balls from the hat by removing a randomly chosen ball from the contents list of the hat and appending it to the list of balls being returned. The random.randrange(len(self.contents)) function is used to generate a random index for the ball to be removed from the contents list. This process is repeated n times, and the resulting list of balls is returned.
-    """
+    
+    # The draw method of the Hat class is used to draw n balls from the hat. The number of balls drawn, n, is limited by the total number of balls remaining in the hat. The method uses a list comprehension to draw n balls from the hat by removing a randomly chosen ball from the contents list of the hat and appending it to the list of balls being returned. The random.randrange(len(self.contents)) function is used to generate a random index for the ball to be removed from the contents list. This process is repeated n times, and the resulting list of balls is returned.
     def draw(self, n):
         n = min(n, len(self.contents))
         return [self.contents.pop(random.randrange(len(self.contents))) for _ in range(n)]
