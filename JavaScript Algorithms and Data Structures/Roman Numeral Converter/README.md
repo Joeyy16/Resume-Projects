@@ -1,4 +1,4 @@
 # Roman Numeral Converter
 
-Converts the given number into a roman numeral.
+Converts a given number into a roman numeral.
 
