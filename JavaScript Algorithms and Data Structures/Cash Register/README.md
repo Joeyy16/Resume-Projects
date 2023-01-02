@@ -7,7 +7,7 @@ The drawer function checkCashRegister() accepts purchase price as the first argu
 
 
 
-Currency Unit	Amount
+Currency Unit	Amount:
 
 Penny	$0.01 (PENNY)
 
