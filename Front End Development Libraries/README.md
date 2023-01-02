@@ -14,6 +14,7 @@ These projects demonstarte my proficiency utilizing some of the most popular fro
 - React
    * Popular JavaScript library for building reusable, component-driven user interfaces for web pages or applications. 
    * React combines HTML with JavaScript functionality into its own markup language called JSX. React also makes it easy to manage the flow of data throughout the application.
+   * Babel transpiles JSX code into JavaScript
 - Redux 
    * create powerful Single Page Applications (SPAs).
    * Redux is defined as a "predictable state container for JavaScript apps" that helps ensure your apps work predictably, and are easier to test.
