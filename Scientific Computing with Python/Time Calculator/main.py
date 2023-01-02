@@ -1,12 +1,9 @@
-# This entrypoint file to be used in development. Start by reading README.md
+# Entrypoint file 
 
-"""
-This code imports the add_time() function from the time_calculator module. This allows you to use the add_time() function in your code by calling it as add_time().
-"""
-
+# Imports the add_time() function from the time_calculator module.
 from time_calculator import add_time
 
-
+# Calling function and printing the result
 print(add_time("11:06 PM", "2:02")) #calling and printing function
 
 
