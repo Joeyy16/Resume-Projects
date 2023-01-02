@@ -4,6 +4,8 @@
 
 > The projects are categorized by topic, there are 11 topics included in this repository. 📚
 
+> If you like what you see and are interested in contacting me, you can reach out to me through LinkedIn @ https://www.linkedin.com/in/joseph-ledo-massey-aa7b1b127/
+
 | Topic | Description |
 | ----------- | ----------- |
 | Responsive Web Design | HTML & CSS |
