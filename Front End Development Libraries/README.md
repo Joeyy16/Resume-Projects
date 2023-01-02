@@ -1,4 +1,4 @@
-These projects demonstarte proficiency utilizing some of the most popular front end libraries in the industry. These libraries build upon my solid foundational knowledge of HTML, CSS, and JavaScript. 
+These projects demonstarte my proficiency utilizing some of the most popular front end libraries in the industry. These libraries build upon my solid foundational knowledge of HTML, CSS, and JavaScript. 
 
 - Bootstrap 
    * styles sites quickly with tools such as Font Awesome.
