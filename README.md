@@ -6,6 +6,8 @@
 
 > If you like what you see and are interested in contacting me, you can reach out to me through LinkedIn @ https://www.linkedin.com/in/joseph-ledo-massey-aa7b1b127/
 
+> I've also included a certifications folder that's home to a variety of certications I have completed.
+
 | Topic | Description |
 | ----------- | ----------- |
 | Responsive Web Design | HTML & CSS |
