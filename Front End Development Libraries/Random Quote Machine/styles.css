@@ -1,3 +1,20 @@
+/* 
+This is a CSS (Cascading Style Sheets) code for styling an HTML page. It sets various style properties for elements on the page, such as font, color, size, and layout.
+
+At the top of the code, there is an @import rule to include the Raleway font from Google Fonts.
+
+The first block of code sets default styles for all elements on the page: it sets the margin, padding, list style, and vertical alignment to 0, and removes the default list style. The div element is given a relative position and a z-index of 2.
+
+The body element is given a dark gray background color, the same color for text, and the Raleway font. It is also given display, justify-content, and align-items properties to center its content vertically and horizontally. The height is set to 100% of the viewport height (vh).
+
+The .footer class is given a width, text alignment, display, and margin properties. The text is styled with a smaller font size and white color. The a element within the footer is given a font weight and color.
+
+The #quote-box div element is given a border radius, position, width, padding, and display property. It is also given a white background color. The .quote-text and .quote-author classes within the #quote-box element are given width, height, clear, font size, and text alignment properties. The i element within .quote-text is given a font size and margin.
+
+The .buttons class is given a width and margin, and the .button class within it is given various properties such as height, border, color, background color, font size, padding, margin, opacity, and cursor. The #tweet-quote and #tumblr-quote buttons are given additional float, text alignment, height, and width properties. The #new-quote button is given a float property.
+*/
+
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
 * {
   margin: 0;
