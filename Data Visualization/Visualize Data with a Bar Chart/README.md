@@ -29,3 +29,5 @@ User Story #11: The data-gdp attribute and its corresponding bar element should 
 User Story #12: I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area.
 
 User Story #13: My tooltip should have a data-date property that corresponds to the data-date of the active area.
+
+![Screenshot 2023-01-03 113420](https://user-images.githubusercontent.com/104868843/210419788-acad67fb-3d4c-4440-9e89-15c9535fc295.png)
