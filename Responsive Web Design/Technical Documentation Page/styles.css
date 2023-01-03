@@ -1,0 +1,12 @@
+ /* 
+This is a media query in CSS (Cascading Style Sheets) that specifies styles for an HTML document based on the width of the viewport. A media query consists of a media type and an expression that checks for certain conditions, such as the width or height of the viewport.
+In this case, the media query has a media type of "all", which means that it applies to all devices, and an expression that checks if the maximum width of the viewport is 768px or less. If the condition is true, the styles inside the media query will be applied.
+The media query specifies that the width of the main element should be 358px when the maximum width of the viewport is 768px or less. This means that the main element will have a width of 358px when the viewport is less than 768px wide, such as on a small screen device like a phone.
+Media queries are useful for creating responsive designs that adapt to the size of the viewport, allowing the content to be displayed correctly on different devices with different screen sizes.
+*/ 
+
+@media (max-width: 768px) {
+  main {
+    width: 358px;
+  }
+}
