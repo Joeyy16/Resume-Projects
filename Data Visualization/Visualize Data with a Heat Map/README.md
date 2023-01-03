@@ -37,3 +37,7 @@ User Story #15: The rect elements in the legend should use at least 4 different 
 User Story #16: I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area.
 
 User Story #17: My tooltip should have a data-year property that corresponds to the data-year of the active area.
+
+
+![Screenshot 2023-01-03 113906](https://user-images.githubusercontent.com/104868843/210420447-31ae7160-be98-45f3-adb9-6025c9efb959.png)
+
