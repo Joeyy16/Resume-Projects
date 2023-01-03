@@ -1,5 +1,15 @@
-/* eslint-disable max-len */
-// eslint-disable-next-line no-unused-vars
+/*
+This is a JavaScript code that retrieves a random quote from a JSON file hosted on GitHub, and displays it on a web page. The page also allows the user to generate a new quote, and includes buttons for tweeting and posting the quote on Tumblr.
+
+The code starts by declaring a global quotesData variable and an array of colors. It then defines a getQuotes function that retrieves the JSON file from GitHub using an AJAX request, and parses the JSON data into the quotesData variable.
+
+The code defines a getRandomQuote function that returns a random quote from the quotesData object. The getQuote function uses the getRandomQuote function to retrieve a random quote, and updates the current quote and current author variables. It then updates the tweet and Tumblr buttons with the current quote and current author, using the encodeURIComponent function to properly encode the quote and author for use in a URL.
+
+The getQuote function also animates the quote and author elements on the page, and changes the background color and text color of the page to a random color from the colors array.
+
+The code sets up an event listener for the "New quote" button, so that the getQuote function is called whenever the button is clicked. When the page is fully loaded, the getQuotes function is called, and upon completion, the getQuote function is called to display the initial quote on the page.
+*/
+
 const projectName = 'random-quote-machine';
 let quotesData;
 
