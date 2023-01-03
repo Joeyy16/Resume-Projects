@@ -1,3 +1,13 @@
+/*
+This is a CSS stylesheet defining the appearance of a markdown editor. The stylesheet begins by importing a font from Google Fonts, and then sets some basic styles for the body element and all elements on the page.
+
+The stylesheet then defines several styles for specific parts of the markdown editor, such as the toolbar, the editor textarea, and the preview pane. It also sets styles for various elements within these parts of the editor, such as the icons in the toolbar, the text in the preview pane, and the textarea in the editor.
+
+The stylesheet also includes some media queries, which apply different styles based on the width of the screen. For example, when the screen width is less than 850 pixels, the previewWrap class is given a maximum width of 630 pixels and the editorWrap class is given a maximum width of 550 pixels.
+
+Finally, the stylesheet includes some additional styles for specific elements within the preview pane, such as blockquotes, code blocks, and headings. These styles define the appearance of these elements when they are rendered in the preview pane.
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 * {
   box-sizing: border-box;
