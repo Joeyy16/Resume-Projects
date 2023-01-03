@@ -1,3 +1,25 @@
+/*
+This code is a stylesheet written in CSS (Cascading Style Sheets). It specifies the styling of an HTML document, including the layout, color, font, and other visual elements of the page.
+
+The body element is the main container for the content of an HTML page. This stylesheet sets the background color of the body to a shade of blue and the text color to white. It also sets the font-size of the body to 30px and aligns the text to the center.
+
+The #container element is a div element with an ID of "container". It is styled to be a flex container with a height of 100vh (100% of the viewport height) and to align its items horizontally and vertically at the center. The main-title class is applied to an element with a font-size of 50px and a margin-bottom of 20px.
+
+The length-control class is applied to an element with a width of 250px. The button element is styled to have no background color or border, and to have a white text color and a cursor that appears as a pointer when hovering over the element.
+
+The btn-level class is applied to an element that is styled to be an inline-block element. The length-control .btn-level:nth-child(3) selector targets the third child element of an element with the length-control class, and styles it with a width of 40px.
+
+The timer class is applied to an element that is styled with a border, width, height, and border radius. It is also given a relative position and contains an inner element with the timer-wrapper class, which is given an absolute position, a width, a height, and margins to center it within the parent element.
+
+The #time-left element is an element with an ID of "time-left" and is given a font-family of "digital" and a font-size of 80px. The timer-control class is applied to a button element that is given a color of #13353a when in an active state.
+
+Finally, the stylesheet includes a media query that applies a scaling transformation to the #container element when the screen width is less than 500px.
+
+The .author class is applied to an element with text that is aligned to the center, a font-family of "Share Tech Mono" and sans-serif, a margin-top of 15px, a font-size of 14px, and a color of #a50d0d. The .author a class is applied to anchor elements within an element with the .author class, and styles them with a text decoration of none, a color of #00264d, and a line height of 26px.
+
+*/
+
+
 body {
   background: #1e555c;
   color: white;
