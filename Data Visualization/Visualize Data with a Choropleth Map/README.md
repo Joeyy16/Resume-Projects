@@ -25,3 +25,5 @@ User Story #9: There should be at least 4 different fill colors used for the leg
 User Story #10: I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area.
 
 User Story #11: My tooltip should have a data-education property that corresponds to the data-education of the active area.
+
+![Screenshot 2023-01-03 113723](https://user-images.githubusercontent.com/104868843/210420204-f83dde7c-6917-40bc-93b7-581f72b02d9b.png)
