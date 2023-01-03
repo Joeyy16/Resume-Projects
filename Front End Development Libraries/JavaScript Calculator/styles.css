@@ -1,3 +1,7 @@
+/*
+This is a CSS stylesheet for a calculator. It defines styles for various elements such as the calculator container, buttons, and screens for displaying formula and output. It also imports a font from Google Fonts and defines a custom font face for use on the page. Some styles are used to change the appearance of elements on hover, and there are media queries to adjust the layout for different screen sizes.
+*/
+
 @import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
 @font-face {
   font-family: 'Digital';
