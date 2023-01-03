@@ -25,3 +25,5 @@ User Story #9: The rect elements in the legend should use at least 2 different f
 User Story #10: I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area.
 
 User Story #11: My tooltip should have a data-value property that corresponds to the data-value of the active area.
+
+![Screenshot 2023-01-03 114138](https://user-images.githubusercontent.com/104868843/210420837-06b9c257-1814-47cc-a7c3-c997bc44421a.png)
