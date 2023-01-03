@@ -1,1 +1,0 @@
-# A technical documentation page
