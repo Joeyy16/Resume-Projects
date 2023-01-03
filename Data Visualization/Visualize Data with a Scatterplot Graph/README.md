@@ -33,3 +33,7 @@ User Story #13: I can see a legend containing descriptive text that has id="lege
 User Story #14: I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area.
 
 User Story #15: My tooltip should have a data-year property that corresponds to the data-xvalue of the active area.
+
+
+![Screenshot 2023-01-03 114016](https://user-images.githubusercontent.com/104868843/210420673-1cda0638-23a8-4cec-b75f-5ca9c40b4b68.png)
+
