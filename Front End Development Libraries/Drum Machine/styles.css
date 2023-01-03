@@ -1,3 +1,17 @@
+/*
+This is a CSS file that styles an HTML page for a drum machine. It sets the default font for the body to be Russo One and removes the ability for the user to select text on the page. It also sets the background color of the body and the root element to be shades of gray.
+
+There is a container element with the class "inner-container" which has a orange border and a gray background. Within this container, there is an element with the class "pad-bank" which is a block element with a width and height, and is set to display inline with a margin. There is also a "drum-pad" element which is a block element with a width and height, floated to the left, with a margin, border radius, padding, and box sizing set. The cursor is set to be a pointer when hovering over this element.
+
+There is also a logo element within the inner container with an inner logo element, and a controls container element within the inner container with control elements within it. There is a display element within the controls container which has a width, background color, margin, and padding set.
+
+There are outer and inner select elements defined with margins, border, width, height, and background color properties. The inner select element has an additional width and box sizing property set.
+
+There are also styles defined for range input elements, including setting the appearance, width, height, cursor, transition, box shadow, background, border, and border radius properties. Styles are also defined for the range input element when it is in focus, and for the thumb of the range input element.
+
+Finally, there are media queries defined for when the screen width is less than 650 pixels, which scales down the inner container element by a factor of 0.7.
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 body {
   font-family: Russo One;
