@@ -1,1 +1,82 @@
+<!--
+The code is an HTML document that defines a survey form. The document begins with a document declaration, which specifies that it is an HTML document.
+The html element represents the root of the HTML document and has an attribute "lang" that specifies the language of the text on the page, in this case "en" for English.
+Inside the html element, there is a head element which contains metadata about the document. In this case, there is a meta element that specifies the character set used in the document as UTF-8, a title element that defines the title of the page, and a link element that defines the relationship between the document and an external resource, a stylesheet file called "styles.css".
+The body element contains all the contents of the document, which in this case is a survey form. The form is made up of several fieldset elements, each of which groups related elements and draws a box around them.
+The first fieldset contains two label elements, each of which has an input element for the user to enter their name and email. The second fieldset contains a label element with an input element for the user to enter a number, and a select element with options for the user to choose how they heard about the survey.
+The third fieldset contains radio buttons for the user to select their account type, and the fourth fieldset contains checkboxes for the user to select their highest level of education.
+The fifth fieldset contains a label element with a textarea element for the user to enter additional comments. Finally, there is a submit button for the user to submit their responses.
+Each element has an id attribute that gives it a unique identifier, which can be used to style the element with CSS or manipulate it with JavaScript. Some elements also have attributes that specify additional information or requirements, such as the type attribute on the input elements or the required attribute on some elements.
+-->
 
+<!DOCTYPE html> <!--document declaration-->
+<html lang="en"> <!--The html tag represents the root of an HTML document. lang="en" specifies that English is used for all the text on the page-->
+
+
+
+  <head> <!--Container for metadata. Metadata is data about the HTML document-->
+    <meta charset="UTF-8"> <!--Specifies the character set, UTF-8 is the most common because it covers almost all of the characters and symbols in the world-->
+    <title>Survey Form</title> <!--Defines the title of the page and is shown in the browser's title bar. It is very important for search engine optimization (SEO)-->
+    <link rel="stylesheet" href="styles.css"/> <!--Defines the relationship between the current document and an external resource-->
+  </head>
+
+
+
+  <body> <!--Defines the document's body, contains all the contents of an HTML document-->
+    <h1 id="title">Survey Form</h1> <!--Most importanty heading. The Id attribute is a unique id for the element-->
+    <p id="description">Please complete the survey</p> <!--Paragraph-->
+    <form id="survey-form"> <!--Used to create an HTML form for user input-->
+
+
+
+      <fieldset> <!--Groups related elements in a form, draws a box around the related elements-->
+        <label id="name-label">Enter your name:<input id="name" type="text" placeholder="ex: John" required /></label>
+        <label id="email-label">Enter your email:<input id="email" type="email" placeholder="ex: Johndoe@gmail.com" required /></label>
+      </fieldset>
+
+
+      <fieldset> <!--Groups related elements in a form, draws a box around the related elements-->
+          <label id="number-label">Enter a number:<input id="number" type="number" placeholder="ex: 2" min="0" max="10" required /></label> <!---->
+          <label>How did you hear about us?
+            <select id="dropdown">
+              <option value="">(select one)</option>
+              <option value="1" >freeCodeCamp YouTube Channel</option>
+              <option value="2">freeCodeCamp Forum</option>
+            </select>
+      </fieldset>
+
+
+<!---->
+      <fieldset>
+          <p id="sec">Account Type</p>
+          <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" value="1"/> Personal Account</label>
+          <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" value="2"/> Business Account</label>
+          </label>
+      </fieldset>
+
+
+<!---->
+      <fieldset>
+          <p id="sec">Highest Level of Education</p>
+          <label for="terms-and-conditions" name="terms-and-conditions">
+            <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value="1" />Graduate Degree</label>
+            <label for="graduate degree" name="graduate degree">
+            <input id="graduate degree" type="checkbox" required name="graduate degree" class="inline" value="2" />Undergraduate Degree</label>
+            <label for="undergraduate degree" name="undergradute degree">
+            <input id="primary school" type="checkbox" required name="primary school" class="inline" value="3" />Primary School</label>
+        </fieldset>
+
+
+<!--Textbox for user input-->
+        <fieldset>
+            <label for="comments">Additional Comments:
+            <textarea id="comments" name="comments" rows="3" cols="30" placeholder="I also..."></textarea>
+          </label>
+        </fieldset>
+
+
+<!--Submit all the inputs-->
+          <input id="submit" type="submit" value="submit" />
+    </form>
+  </body>
+</html>
