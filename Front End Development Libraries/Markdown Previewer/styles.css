@@ -8,6 +8,7 @@ The stylesheet also includes some media queries, which apply different styles ba
 Finally, the stylesheet includes some additional styles for specific elements within the preview pane, such as blockquotes, code blocks, and headings. These styles define the appearance of these elements when they are rendered in the preview pane.
 */
 
+
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 * {
   box-sizing: border-box;
